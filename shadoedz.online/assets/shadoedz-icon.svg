@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="64" x2="440" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="128" y1="128" x2="435" y2="407" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4BD5FF"/>
+      <stop offset="0.45" stop-color="#2BA6FF"/>
+      <stop offset="1" stop-color="#7D5BFF"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="245" y1="118" x2="335" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7E9FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#74A9FF" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="140" fill="url(#bg)"/>
+
+  <mask id="cutout">
+    <rect width="512" height="512" fill="white"/>
+    <path d="M125 329C140 259 189 160 281 158H313C351 158 384 176 404 205L436 252C456 277 440 316 408 321L198 363C163 370 128 369 101 339L125 329Z" fill="black"/>
+    <path d="M366 180C351 247 292 351 201 354H170C134 354 100 333 78 302L45 256C25 231 40 193 74 189L280 157C314 152 346 155 381 176L366 180Z" fill="black"/>
+  </mask>
+
+  <g mask="url(#cutout)">
+    <path d="M355 128C281 102 224 128 183 179C133 243 121 305 143 350C165 394 217 430 283 433C314 435 351 429 385 413L398 410C450 388 470 335 452 293C434 251 389 217 330 193L355 128Z" fill="url(#mark)"/>
+    <path d="M209 110C292 101 355 142 398 196C436 244 449 296 429 335C409 374 373 405 311 420C259 433 206 425 165 403C151 396 139 385 124 376L120 322C146 349 179 360 216 350C279 334 320 285 312 224C306 181 267 168 227 175C189 181 164 201 138 231L95 177C120 146 157 118 209 110Z" fill="url(#shadow)" opacity="0.9"/>
+  </g>
+
+  <path d="M152 134C196 110 236 109 286 125C332 140 369 162 409 213" stroke="#DAF6FF" stroke-opacity="0.28" stroke-width="16" stroke-linecap="round"/>
+  <path d="M107 372C148 405 207 420 270 410C323 401 370 377 410 331" stroke="#DAF6FF" stroke-opacity="0.2" stroke-width="14" stroke-linecap="round"/>
+</svg>
