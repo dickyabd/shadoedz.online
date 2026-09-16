@@ -18,3 +18,7 @@ Open `index.html` directly in a browser, or serve the folder with any static web
 
 ## Deploy
 Upload the contents of this folder to the document root/public directory of your static hosting. No build step or database is required.
+
+
+### Favicon
+The site includes the supplied `favicon.ico` plus PNG icon sizes and a web app manifest.
