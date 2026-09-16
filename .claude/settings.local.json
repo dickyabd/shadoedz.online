@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Sleep -Seconds 15; cd c:\\\\projects; $env:KLAVIYO_API_KEY = \"pk_Vv6MXr_b0e763742a64563d0d6e160421534d4a3d\"; python klaviyo_bulk_import.py poll)"
+    ]
+  }
+}
